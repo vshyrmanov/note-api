@@ -18,6 +18,14 @@ const notesController = {
         } catch (e) {
             console.log(e)
         }
+    },
+    testik: async (req, res) => {
+        try {
+            res.json({data: 'good job'})
+            console.log('good test')
+        } catch (e) {
+            console.log(e)
+        }
     }
 }
 
